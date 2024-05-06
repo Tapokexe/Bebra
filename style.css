@@ -133,3 +133,8 @@ footer {
     transition: 0.5s ease-out;
     padding: 5px;
 }
+
+.pipi {
+    display: flex;
+    justify-content: space-between;
+}
