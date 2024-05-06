@@ -1,61 +1,135 @@
+body {
+    font-family: sans-serif;
+    background-color: #6A2B2B;
+}
+
+.nav-link {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+
 nav a {
     text-decoration:none;
-    color:black;
+    color:white;
     font-size: 30px;
-    border: 2px solid;
+    border: 2px solid black;
     margin: 3px;
     padding: 3px;
-    background-color: #E74C3C;
+    background-color: #CD0074;
     border-radius: 10px;
+    text-align: center;
 }
 
-b{
-    font-size: 40px;
-    color: #7D3C98;
-    background-color: #D68910;
+h1 {
+    text-align: center;
 }
 
-header a {
-    font-size: 35px; 
-    text-decoration:none;
-    color: #A93226 ;
+header h1 {
+    font-size: 70px;
 }
 
-footer p {
-    background-color: #D35400;
-    font-size: 25px;
-    border: 2px solid;
+.bee {
+    display: flex;
+    width: 200px;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-main img {
-    border: 4px solid;
-    color: #B03A2E;
+h2 {
+    font-size: 80px;
     text-align: center;
 }
 
 main p {
-    text-align: center;
-    font-size:  40px;
-    color: #D68910;
-    border: 4px solid;
+    font-size: 30px;
 }
 
-body {
-    background-color: #4A235A;
+.yley {
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+    margin: 0 auto;
 }
 
-header {
-    margin: 20px;
+.ylley {
+    background-color: #CD0074;
 }
 
-main h2 {
-    font-size: 50px;
-    text-align: center;
-    color: #F4D03F;
+.baler {
+    width: 300px;
+    height: 350px;
 }
 
-main h1 {
-    font-size: 50px;
-    text-align: center;
-    color: #F4D03F;
+.coco {
+    width: 250px;
+    height: 250px;
+}
+
+.aksesoar {
+    background-color: #CD0074;
+}
+
+footer {
+    background-color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+    color: black;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #CD0074;
+    font-weight: bolder;
+}
+
+.egg {
+    width: 100px;
+}
+
+.egg:hover {
+    border: 6px solid black;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s ease-out;
+    padding: 5px;
+}
+
+.predmetu {
+    background-color: #CD0074;
+}
+
+.nav-link:hover {
+    background-color: black;
+    color: #CD0074;
+    transition: 1s linear;
+}
+
+.gallery {
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.gallery img {
+    opacity: 0.9;
+    width: 170px;
+    height: 220px;
+}
+
+.gallery img:hover {
+    opacity: 1;
+    border: 6px solid white;
+    width: 250px;
+    height: 300px;
+    transition: 0.5s ease-out;
+    padding: 5px;
 }
